@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">menu 2</string>
+    <string name="menu" />
+    <string name="descriptions" />
+    <string name="price" />
+    <string name="items" />
+    <string name="Menu">Menu</string>
+    <string name="go_to_order">GO TO ORDER</string>
+    <string name="add">ADD</string>
+    <string name="todo">TODO</string>
+    <string name="about_us" />
+    <string name="welcome">welcome</string>
+    <string name="menu1">menu1</string>
+    <string name="button">button</string>
+    <string name="your_order">your order</string>
+    <string name="place_order">place order</string>
+    <string name="ITEM">ITEM</string>
+    <string name="order_placed">ORDER PLACED</string>
+</resources>
