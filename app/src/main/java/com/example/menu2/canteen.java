@@ -8,13 +8,15 @@ public class canteen implements Serializable {
     private String description;
     private String price;
     private String quantity;
+    private int image;
 
-    public canteen(int serial,String items, String description,String price, String quantity) {
+    public canteen(int serial,String items, String description,String price, String quantity, int image) {
         this.serial = serial;
         this.items = items;
         this.description = description;
         this.price = price;
         this.quantity = quantity;
+        this.image = image;
     }
 
     public int getSerial() {
@@ -54,6 +56,14 @@ public class canteen implements Serializable {
 
     public void setQuantity(String quantity) {
         this.quantity = quantity;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
     }
 }
 

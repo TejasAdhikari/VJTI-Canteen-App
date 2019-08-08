@@ -17,6 +17,7 @@ public class Main2Activity extends AppCompatActivity {
     private Button pbutton;
     private TextView tv;
     private TextView tvtotal;
+    private TextView info;
     private TextView tvtotalamount;
     private RecyclerView r1;
     private O_Adapter oAdapter;
@@ -30,11 +31,12 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         ArrayList<canteen> orderList = new ArrayList<canteen>();
         orderList = (ArrayList<canteen>) getIntent().getSerializableExtra("BUNDLE");
-        final int n = 9;
+        final int n = 24;
         int amount = 0;
 
         pbutton = (Button) findViewById(R.id.button3);
         tv = (TextView) findViewById(R.id.textView2);
+        info = (TextView) findViewById(R.id.textView4);
         tvtotal = (TextView) findViewById(R.id.total);
         tvtotalamount = (TextView) findViewById(R.id.totaltextview);
         r1 = (RecyclerView) findViewById(R.id.order_rv);
