@@ -15,7 +15,7 @@
     <string name="your_order">your order</string>
     <string name="place_order">place order</string>
     <string name="ITEM">ITEM</string>
-    <string name="order_placed">ORDER PLACED</string>
+    <string name="order_placed"></string>
     <string name="YOUR">YOUR ORDER</string>
     <string name="total_amount">TOTAL AMOUNT :</string>
     <string name="textview">TextView</string>

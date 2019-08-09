@@ -33,6 +33,8 @@ public class sourabobs extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(sourabobs.this,"about us",Toast.LENGTH_SHORT).show();
+                Intent mintent = new Intent(getApplicationContext(),Main3Activity.class);
+                startActivity(mintent);
             }
         });
 
