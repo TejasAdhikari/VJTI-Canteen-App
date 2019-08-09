@@ -14,7 +14,7 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         text = (TextView) findViewById(R.id.textView5);
-        text.setText("ABOUT US \n \n CODING AND GRAPHICS BY Tejas Adhikari \n IDEAS BY Shubham Agrawal \n CODING SIDEKICK : Sourasish Roy \n MOTIVATION BY Deep Vora ");
+        text.setText("CREDITS : \n \n CODING AND GRAPHICS BY Tejas Adhikari \n DOCUMENTATION BY Shubham Agrawal  \n CODING SIDEKICK : Sourasish Roy \n MOTIVATION BY Deep Vora, Tejas Adhikari, Shubham Agrawal and Sourasish Roy ");
 
     }
 }
