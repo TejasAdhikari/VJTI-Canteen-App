@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup,icon,theme,label,name">
         <activity android:name=".Main2Activity" />
         <activity android:name=".sourabobs">
             <intent-filter>
